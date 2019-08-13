@@ -1,1 +1,15 @@
-/* pages/system/system.wxss */
+.rowContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  margin: 20rpx;
+  align-items: stretch;
+}
+
+.item2 {
+  margin: 20rpx;
+  align-items: stretch;
+  background: #ccc;
+}

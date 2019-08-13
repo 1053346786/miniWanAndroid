@@ -1,11 +1,12 @@
-// pages/system/system.js
+
+import baseNetwork from "../../utils/baseNetwork.js";
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    systemListTitle: [],
     systemListData: [],
   },
 
@@ -13,7 +14,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    this.getSystemList();
+  },
 
+  getSystemList(){
+    var that = this;
+    //首页轮播图
+    baseNetwork.getSystemList().then(
+      function (res) {
+        that.setData({
+          systemListData: res.data
+        })
+      })
   },
 
   /**

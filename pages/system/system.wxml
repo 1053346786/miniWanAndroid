@@ -1,7 +1,10 @@
-<view wx:for="{{systemListTitle}}" wx:key="{{index}}">
-  <text>{{item.title}}</text>
+<view wx:for="{{systemListData}}" wx:key="{{item.id}}">
+  <text class='item1'>{{item.name}}</text>
 
-  <view wx:for="{{systemListData}}" wx:key="{{index}}">
-    <text>{{item.title}}</text>
+  <view class='rowContainer'>
+    <view wx:for="{{item.children}}" wx:key="{{item.children.id}}">
+      <text class='item2'>{{item.name}}</text>
+    </view>
   </view>
+
 </view>
