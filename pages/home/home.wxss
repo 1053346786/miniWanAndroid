@@ -1,0 +1,49 @@
+/* pages/home/home.wxss */
+
+.home {
+  width: 100%;
+  height: 400rpx;
+}
+
+.home-swiper, .home-image {
+  width: 100%;
+  height: 100%;
+}
+
+.item-image {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.title {
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.chapterName {
+  margin: 10rpx;
+}
+
+.author {
+  margin: 10rpx;
+  flex: 1;
+}
+
+.niceDate {
+  margin: 10rpx;
+}
+
+.item {
+  margin: 10rpx;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px #ccc solid;
+}
+
+.item-title {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+}

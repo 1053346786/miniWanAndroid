@@ -1,0 +1,46 @@
+.my {
+  width: 100%;
+  height: 400rpx;
+  background: #ccc;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400rpx;
+  background: #ccc;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.collection-item {
+  width: 100%;
+  height: 100rpx;
+  align-items: center;
+  margin-left: 20rpx;
+  display: flex;
+   border-bottom: 1px #ccc solid;
+}
+
+.collection-image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+ 
+}

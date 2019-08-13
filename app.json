@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/project/project",
+    "pages/publicnumber/publicnumber",
+    "pages/system/system"
+  ],
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#1296DB",
+    "borderStyle": "black",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/home_select.png",
+        "iconPath": "pages/image/home.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/image/system_select.png",
+        "iconPath": "pages/image/system.png",
+        "pagePath": "pages/system/system",
+        "text": "知识体系"
+      },
+      {
+        "selectedIconPath": "pages/image/publicnumber_select.png",
+        "iconPath": "pages/image/publicnumber.png",
+        "pagePath": "pages/publicnumber/publicnumber",
+        "text": "公众号"
+      },
+      {
+        "selectedIconPath": "pages/image/project_select.png",
+        "iconPath": "pages/image/project.png",
+        "pagePath": "pages/project/project",
+        "text": "项目"
+      },
+      {
+        "selectedIconPath": "pages/image/my_select.png",
+        "iconPath": "pages/image/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296DB",
+    "navigationBarTitleText": "WanAndroid",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

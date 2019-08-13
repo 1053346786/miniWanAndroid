@@ -1,0 +1,24 @@
+<view class="home">
+  <swiper class="home-swiper" indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <view wx:for="{{bannerData}}" wx:key="{{item.imagePath}}">
+      <swiper-item>
+        <image class="home-image" src="{{item.imagePath}}" />
+      </swiper-item>
+    </view>
+  </swiper>
+
+  <view wx:for="{{homeData}}" wx:key="{{item.id}}">
+    <view class="item">
+
+      <text class="title">{{item.title}}</text>
+      <text class="chapterName">{{item.chapterName}}</text>
+
+      <view class='item-title'>
+        <text class="author">{{item.author}}</text>
+        <text class="niceDate">{{item.niceDate}}</text>
+      </view>
+
+    </view>
+  </view>
+
+</view>
